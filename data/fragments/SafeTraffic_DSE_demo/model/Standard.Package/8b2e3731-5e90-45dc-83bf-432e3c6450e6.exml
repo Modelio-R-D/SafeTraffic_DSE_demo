@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="example.eu.myrtus" version="4">
+  <OBJECT>
+    <ID name="example.eu.myrtus" mc="Standard.Package" uid="8b2e3731-5e90-45dc-83bf-432e3c6450e6"/>
+    <PID name="SafeTraffic_DSE_demo" mc="Standard.Project" uid="132ed670-a7a6-4c59-b59d-dd13fc82f644"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[example.eu.myrtus]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="nodetypes" mc="Standard.Package" uid="006805f6-096f-43b7-8960-8a839c1ba29f"/>
+        <COMPID name="TrafficApplication" mc="Standard.Class" uid="50e090a8-1f04-4110-9356-c19f8587095a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="ToscaModel" mc="Infrastructure.Stereotype" uid="20565008-115d-4fad-800f-134ab276f611"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Service Template diagram" mc="Standard.StaticDiagram" uid="0db23b02-37ac-44a4-89fd-dca897e58171"/>
+        <COMPID name="Topology Template diagram" mc="Standard.StaticDiagram" uid="44915d7d-fc5e-4f98-8351-4eeb7a686317"/>
+        <COMPID name="Node types diagram" mc="Standard.StaticDiagram" uid="4ad59a75-3c89-487f-8daf-975fb347f700"/>
+        <COMPID name="Policies diagram" mc="Standard.StaticDiagram" uid="694df909-d13d-4cff-9e87-add860522572"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

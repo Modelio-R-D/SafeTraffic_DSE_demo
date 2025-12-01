@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nodetypes" version="4">
+  <OBJECT>
+    <ID name="nodetypes" mc="Standard.Package" uid="006805f6-096f-43b7-8960-8a839c1ba29f"/>
+    <PID name="example.eu.myrtus" mc="Standard.Package" uid="8b2e3731-5e90-45dc-83bf-432e3c6450e6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nodetypes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="myrtus.dpe.compute" mc="Standard.Class" uid="95b62343-e4bc-453a-8fcb-f47174d83bf3"/>
+        <COMPID name="myrtus.dpe.cameraFeed" mc="Standard.Class" uid="ea29aec5-b564-4614-97f0-773644b11713"/>
+        <COMPID name="myrtus.dpe.softwareComponent" mc="Standard.Class" uid="668149ba-dfa9-4aa2-967c-628c9545959e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TServiceTemplate" mc="Infrastructure.Stereotype" uid="09682faf-27b8-4c4b-a5e6-22fe18303161"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

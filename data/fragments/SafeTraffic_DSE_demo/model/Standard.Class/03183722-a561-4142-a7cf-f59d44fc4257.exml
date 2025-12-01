@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Policies" version="4">
+  <OBJECT>
+    <ID name="Policies" mc="Standard.Class" uid="03183722-a561-4142-a7cf-f59d44fc4257"/>
+    <PID name="TrafficApplication" mc="Standard.Class" uid="50e090a8-1f04-4110-9356-c19f8587095a"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Policies]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="communication_cost_objective" mc="Standard.Class" uid="e57b5dcc-7f21-4ef9-a89f-b0b7694b168a"/>
+        <COMPID name="dependency_objective" mc="Standard.Class" uid="d23b428e-3ac0-469e-b7b1-1608edb1ed0f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="PoliciesType" mc="Infrastructure.Stereotype" uid="205759e2-44bb-4cb3-b19e-8cfbed4f9435"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

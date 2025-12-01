@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SafeTraffic_DSE_demo" version="4">
+  <OBJECT>
+    <ID name="SafeTraffic_DSE_demo" mc="Infrastructure.DiagramSet" uid="e6c2d98c-48a4-4eb8-89c8-49ba5d3c335d"/>
+    <PID name="SafeTraffic_DSE_demo" mc="Standard.Project" uid="132ed670-a7a6-4c59-b59d-dd13fc82f644"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[SafeTraffic_DSE_demo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

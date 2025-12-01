@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Requirements" version="4">
+  <OBJECT>
+    <ID name="Requirements" mc="Standard.Class" uid="3a420bee-fc1f-42fd-83a1-d3581873acdc"/>
+    <PID name="SensorTracker" mc="Standard.Class" uid="eb85c8a2-90a0-401b-ad27-cfd09a10e7a7"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Requirements]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="host" mc="Standard.Class" uid="1b36e17c-7448-4f24-95c2-4d03c03834e5"/>
+        <COMPID name="connects" mc="Standard.Class" uid="ffd2f547-386c-42c5-9c3d-61999048db07"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="RequirementsType" mc="Infrastructure.Stereotype" uid="1a39bd85-e28f-4e17-b2e9-a1803359cd83"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

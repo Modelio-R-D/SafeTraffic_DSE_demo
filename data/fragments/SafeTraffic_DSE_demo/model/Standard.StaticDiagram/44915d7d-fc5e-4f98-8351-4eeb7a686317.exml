@@ -15,11 +15,8 @@
       <LINK relation="Represented">
         <ID name="MultisensorMerger" mc="Standard.Class" uid="6a72ec6c-037c-4d50-b10a-614aad101390"/>
         <ID name="RedLightDetection" mc="Standard.Class" uid="0983fe2a-fc96-46ca-ab36-e1dd59f6259e"/>
-        <ID name="CollisionPredictor" mc="Standard.Class" uid="127bc436-761c-4908-a6d4-5b90208803dd"/>
-        <ID name="SensorTracker" mc="Standard.Class" uid="eb85c8a2-90a0-401b-ad27-cfd09a10e7a7"/>
         <ID name="IllegalTrajectoryDetection" mc="Standard.Class" uid="8bd27a00-df4c-4931-a516-04a0558a2138"/>
         <ID name="MapMatcher" mc="Standard.Class" uid="5f1ed528-3c97-4414-ae96-eff8f676353d"/>
-        <ID name="MyrtusCameraFeed" mc="Standard.Class" uid="7cf7d2bf-b1ec-4214-9c45-d7009b5b096d"/>
         <ID name="TrafficApplication" mc="Standard.Class" uid="50e090a8-1f04-4110-9356-c19f8587095a"/>
         <REFOBJ>
           <ID name="targetNamespace" mc="Standard.Attribute" uid="9882502d-0f8e-46d8-b7f0-df4578125f10"/>
@@ -32,20 +29,15 @@
         <ID name="dependency_objective" mc="Standard.Class" uid="d23b428e-3ac0-469e-b7b1-1608edb1ed0f"/>
         <ID name="software_component_nodes" mc="Standard.Class" uid="8dbebdf3-8992-48cf-92d1-ab4356d5bc76"/>
         <ID name="compute_nodes" mc="Standard.Class" uid="3d979c16-c4be-4dc9-b71d-04d6d43956a0"/>
-        <ID name="FogComputeNode1" mc="Standard.Class" uid="8ef5707f-f341-44c0-ba9b-2930065a82a2"/>
+        <ID name="FogComputeNode" mc="Standard.Class" uid="8ef5707f-f341-44c0-ba9b-2930065a82a2"/>
         <ID name="EdgeComputeNode" mc="Standard.Class" uid="cd8ec1a3-973f-40b8-9433-67ea02d7841a"/>
-        <ID name="Requirements" mc="Standard.Class" uid="3a420bee-fc1f-42fd-83a1-d3581873acdc"/>
         <ID name="Requirements" mc="Standard.Class" uid="b9054f70-5661-41ce-83aa-a30513cb9d1c"/>
         <ID name="Requirements" mc="Standard.Class" uid="f353e885-e0f9-46aa-9ea6-809c95777483"/>
         <ID name="Requirements" mc="Standard.Class" uid="3175263a-7346-411e-aff9-ddfec6fc0c73"/>
         <ID name="Requirements" mc="Standard.Class" uid="cdf8365c-1dac-4046-b85e-500145863d51"/>
-        <ID name="Requirements" mc="Standard.Class" uid="2ce05b8b-1bbb-47eb-98d1-a075718d8b15"/>
         <ID name="host" mc="Standard.Class" uid="0f15e63f-4893-4899-b25f-69e4130b2dc4"/>
-        <ID name="connects" mc="Standard.Class" uid="ffd2f547-386c-42c5-9c3d-61999048db07"/>
         <ID name="host" mc="Standard.Class" uid="cc7439b5-5c6b-4c5f-a024-02269612b866"/>
         <ID name="host" mc="Standard.Class" uid="65bf3385-69a2-424f-a86c-53b5a41b9bc6"/>
-        <ID name="host" mc="Standard.Class" uid="a70db64c-9e6b-41fc-80f3-b4fc28fec551"/>
-        <ID name="host" mc="Standard.Class" uid="1b36e17c-7448-4f24-95c2-4d03c03834e5"/>
         <ID name="host" mc="Standard.Class" uid="2aa9c30f-dfee-4cb7-9e34-ca3f99824dc1"/>
         <ID name="connects" mc="Standard.Class" uid="7f352984-c3db-40c0-998a-ab225d16f247"/>
         <REFOBJ>
@@ -67,30 +59,6 @@
           <ID name="port" mc="Standard.Attribute" uid="dab678f4-8e5f-430f-bded-3e8590c9394f"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="maxMemoryUsage" mc="Standard.Attribute" uid="1ff35f07-64a2-422f-b33e-2ea4c60f4a4b"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="latency" mc="Standard.Attribute" uid="0bb66c53-73da-4471-ad35-d666b9132f50"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="dataIntegrity" mc="Standard.Attribute" uid="a69d91a1-ae56-4857-9e62-e727a497ee67"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="required_cpu_cores" mc="Standard.Attribute" uid="7eaf5e9b-ab91-4eaf-b8ff-243121b000fc"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="frequency-FPS" mc="Standard.Attribute" uid="4a73961e-4446-4ff6-b3f1-fd4027b943ae"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="maxCpuUsage" mc="Standard.Attribute" uid="68d46314-e650-4765-a9fe-6e0ae067b66a"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="dataSensitivity" mc="Standard.Attribute" uid="04eec411-d816-4a22-8903-ef507e641f4d"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="required_memory_gb" mc="Standard.Attribute" uid="7749c7aa-b247-44df-95fe-e0a9cf84b9a8"/>
-        </REFOBJ>
-        <REFOBJ>
           <ID name="required_memory_gb" mc="Standard.Attribute" uid="7df177d6-7a8f-4063-8503-61e08c2d0510"/>
         </REFOBJ>
         <REFOBJ>
@@ -107,48 +75,6 @@
         </REFOBJ>
         <REFOBJ>
           <ID name="dockerImage" mc="Standard.Attribute" uid="a26cba6c-1c88-4cba-9dd9-da9d76e71d16"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="required_cpu_cores" mc="Standard.Attribute" uid="962849ca-712f-4b64-9389-f0ac0d908522"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="required_memory_gb" mc="Standard.Attribute" uid="7a27dbb3-2656-4477-9c47-fe7e054d8182"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="dockerImage" mc="Standard.Attribute" uid="3240dc07-52c4-4b13-af6e-9e4176b01f6a"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="dataSensitivity" mc="Standard.Attribute" uid="743038cb-60ac-4f52-a86e-1354015bc87f"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="port" mc="Standard.Attribute" uid="f44229a6-ac2c-47fe-b5eb-efef2e8fb6a7"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="dataIntegrity" mc="Standard.Attribute" uid="23c5e8bb-1d1e-49e6-af09-c2ab398eab15"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="onnxSpecFile" mc="Standard.Attribute" uid="d6443556-526e-47b7-98c0-5cf53de690f3"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="dataSensitivity" mc="Standard.Attribute" uid="83595d7a-6b47-4523-8def-5c424fddcd15"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="required_cpu_cores" mc="Standard.Attribute" uid="34696084-c770-47fc-9903-b290de48a35a"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="required_memory_gb" mc="Standard.Attribute" uid="77ab4990-c72f-479c-b089-749998ad19a4"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="tensorFlowLiteSpec" mc="Standard.Attribute" uid="1cdfb599-44b5-4d90-9749-539a7921eb28"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="dockerImage" mc="Standard.Attribute" uid="3e239404-fdee-4e98-90a3-be230f4fcbc0"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="port" mc="Standard.Attribute" uid="eff4661d-27cc-4dd6-a7fc-fab3af130a63"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="dataIntegrity" mc="Standard.Attribute" uid="32b3dca2-bb7a-4d4c-bb6d-b085a2f75b59"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="dataIntegrity" mc="Standard.Attribute" uid="601b1176-b8ab-4976-8422-8d7b3000ed58"/>

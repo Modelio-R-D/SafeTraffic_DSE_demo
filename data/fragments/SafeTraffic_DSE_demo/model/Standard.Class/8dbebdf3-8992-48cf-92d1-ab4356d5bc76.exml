@@ -18,10 +18,7 @@
       <COMP relation="OwnedElement">
         <COMPID name="MultisensorMerger" mc="Standard.Class" uid="6a72ec6c-037c-4d50-b10a-614aad101390"/>
         <COMPID name="MapMatcher" mc="Standard.Class" uid="5f1ed528-3c97-4414-ae96-eff8f676353d"/>
-        <COMPID name="SensorTracker" mc="Standard.Class" uid="eb85c8a2-90a0-401b-ad27-cfd09a10e7a7"/>
         <COMPID name="RedLightDetection" mc="Standard.Class" uid="0983fe2a-fc96-46ca-ab36-e1dd59f6259e"/>
-        <COMPID name="CollisionPredictor" mc="Standard.Class" uid="127bc436-761c-4908-a6d4-5b90208803dd"/>
-        <COMPID name="MyrtusCameraFeed" mc="Standard.Class" uid="7cf7d2bf-b1ec-4214-9c45-d7009b5b096d"/>
         <COMPID name="IllegalTrajectoryDetection" mc="Standard.Class" uid="8bd27a00-df4c-4931-a516-04a0558a2138"/>
       </COMP>
       <LINK relation="Extension">

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<ram-component manifest-version="2.0.02" name="ScriptServer" version="0" release="0" clevel="0" modelioVersion="5.4.01" provider="">
+  <description><![CDATA[]]></description>
+  <dependencies></dependencies>
+  <contributors></contributors>
+  <metamodels>
+    <metamodel name="Infrastructure" version="2.1.04"/>
+  </metamodels>
+  <roots>
+    <root metaclass="Infrastructure.ModuleComponent" name="ScriptServer" uuid="a8f5e7c3-9d2b-4f1a-8e6c-3b5d7f9a2c4e"/>
+  </roots>
+</ram-component>

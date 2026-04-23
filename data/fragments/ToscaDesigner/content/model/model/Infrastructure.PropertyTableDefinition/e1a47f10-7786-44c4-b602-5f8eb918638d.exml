@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="44b14f5d-ad7e-4f80-a5d8-135688a12f81"/>
+                <ID name="" mc="Infrastructure.Note" uid="5d97f022-b7a3-4b11-9341-4519c3ec3072"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.file.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -53,7 +53,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="62383345-db86-46db-ac35-1138dd929557"/>
+                <ID name="" mc="Infrastructure.Note" uid="299b75f3-8594-44e9-946d-816ca6f081f6"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.repository.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -83,7 +83,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="cd5a45b0-edd5-43a7-be0d-6285a2e8b6ec"/>
+                <ID name="" mc="Infrastructure.Note" uid="9977d9a8-025d-487a-a833-a5293f39d51d"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.description.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -113,7 +113,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="bcd73078-0630-410d-b0bc-ce156ddafe5d"/>
+                <ID name="" mc="Infrastructure.Note" uid="012803bd-2f96-45ab-88ca-1a3a41e372d9"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.deploy_path.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -143,7 +143,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="b8947766-b518-4e82-992a-97342ef58736"/>
+                <ID name="" mc="Infrastructure.Note" uid="c407becd-54a6-4d60-8263-754751cde05e"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.artifact_version.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -173,7 +173,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="9a979c66-df3d-467f-8842-76f1809e26c3"/>
+                <ID name="" mc="Infrastructure.Note" uid="0184a0e6-f4ee-4fca-919f-c8b6fac377c1"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.checksum.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -203,7 +203,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="72554aae-16f7-4a13-bd57-6fdaa7db015a"/>
+                <ID name="" mc="Infrastructure.Note" uid="a5fa5919-def9-4101-bc03-eeda7a56bc91"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TDeploymentArtifactTable.checksum_algorithm.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

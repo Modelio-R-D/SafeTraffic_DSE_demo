@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="f76b8220-b874-4366-a6c1-8402c71087f8"/>
+                <ID name="" mc="Infrastructure.Note" uid="f7355382-0c07-4e64-a32e-346b23672695"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TParameterTable.name.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -53,7 +53,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="d5afde8c-b922-49a1-8d50-dbcab68ed86f"/>
+                <ID name="" mc="Infrastructure.Note" uid="fa5d8f39-bdeb-4ef3-9d68-a3da32b87448"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TParameterTable.required.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -83,7 +83,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="1a049b25-7a9d-4b62-b7e4-d7a8015e64d6"/>
+                <ID name="" mc="Infrastructure.Note" uid="1f319d8a-316b-40c5-bb6d-3dec40a7b406"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TParameterTable.type.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -113,7 +113,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="4c2714dc-808d-4aa3-9b07-3ff2d6dc6c31"/>
+                <ID name="" mc="Infrastructure.Note" uid="51c36aee-403a-468d-a706-1234439eb281"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TParameterTable.description.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -143,7 +143,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="17fe6cbb-31ba-4830-b214-2faaec354ae7"/>
+                <ID name="" mc="Infrastructure.Note" uid="488f0a13-955c-4d70-8b04-0a1732bd3d37"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TParameterTable.value.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -173,7 +173,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="f26fcc8d-3b68-4f89-9d4e-78108198233f"/>
+                <ID name="" mc="Infrastructure.Note" uid="139f2b91-e217-45a0-a211-7728710192be"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TParameterTable.default.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -203,7 +203,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="6a811d72-3f6f-4031-b233-08e2066f806b"/>
+                <ID name="" mc="Infrastructure.Note" uid="dbd606fe-8e1a-427a-8fdd-49adc2614424"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TParameterTable.status.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -233,7 +233,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="202b3cc8-fe9b-49ed-b379-fcf7e044aedd"/>
+                <ID name="" mc="Infrastructure.Note" uid="b4aad805-b20e-4669-8cad-6a611cc2fdd5"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.TParameterTable.constraints.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

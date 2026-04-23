@@ -76,6 +76,10 @@
         <COMPID name="Fog_Node_10" mc="Standard.Class" uid="f5df0f65-72e3-49a4-993e-2c2dcb8daec3"/>
         <COMPID name="Cloud_Node_1" mc="Standard.Class" uid="58f904f3-bbe2-4283-98e7-7d4d9caf3d8e"/>
       </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de classe architecture" mc="Standard.ClassDiagram" uid="e9975756-c5d3-4339-a0b8-076e082d724b"/>
+        <COMPID name="Diagramme de classe architecture" mc="Standard.ClassDiagram" uid="2e1a3d92-86be-4d11-9d5b-e85f219e5a07"/>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

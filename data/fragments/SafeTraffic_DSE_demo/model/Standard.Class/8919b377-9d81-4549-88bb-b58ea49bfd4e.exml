@@ -37,6 +37,11 @@
             <LINK relation="Target">
               <ID name="Fog_Node_5" mc="Standard.Class" uid="0fee5b09-f4b2-464b-b21d-7acb8f6223d4"/>
             </LINK>
+            <COMP relation="Opposite">
+              <REFOBJ>
+                <ID name="from_Edge_Node_3" mc="Standard.AssociationEnd" uid="01ccaa0f-961d-47a8-b233-890d7b968507"/>
+              </REFOBJ>
+            </COMP>
             <COMP relation="Association">
               <OBJECT>
                 <ID name="Edge_Node_3_to_Fog_Node_5" mc="Standard.Association" uid="aff730ee-ad90-4eaa-b39f-08e79e4a1126"/>
@@ -70,6 +75,11 @@
             <LINK relation="Target">
               <ID name="Fog_Node_7" mc="Standard.Class" uid="2dcb9d90-95c6-4918-a4c9-03ba0b992ea5"/>
             </LINK>
+            <COMP relation="Opposite">
+              <REFOBJ>
+                <ID name="from_Edge_Node_3" mc="Standard.AssociationEnd" uid="d1fc06b8-6e41-48d5-be37-509eab02296a"/>
+              </REFOBJ>
+            </COMP>
             <COMP relation="Association">
               <OBJECT>
                 <ID name="Edge_Node_3_to_Fog_Node_7" mc="Standard.Association" uid="f6aceea5-9a3c-4f3f-977c-680119bf8775"/>
@@ -103,15 +113,20 @@
             <LINK relation="Target">
               <ID name="Edge_Node_40" mc="Standard.Class" uid="a5fce7fa-5a75-4e6f-b084-435d61bb35af"/>
             </LINK>
+            <COMP relation="Opposite">
+              <REFOBJ>
+                <ID name="from_Edge_Node_3" mc="Standard.AssociationEnd" uid="a95696a0-9d3a-4078-b4de-1b73d1dfa424"/>
+              </REFOBJ>
+            </COMP>
             <COMP relation="Association">
               <REFOBJ>
-                <ID name="Edge_Node_40_to_Edge_Node_3" mc="Standard.Association" uid="0f4ff348-7a31-4b3d-86d2-9798215698fe"/>
+                <ID name="Edge_Node_3_to_Edge_Node_40" mc="Standard.Association" uid="0f4ff348-7a31-4b3d-86d2-9798215698fe"/>
               </REFOBJ>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Edge_Node_3_to_Fog_Node_10" mc="Standard.AssociationEnd" uid="e8be0a1d-9edc-44cb-b703-3100b36b33ec"/>
+          <ID name="from_Fog_Node_10" mc="Standard.AssociationEnd" uid="e8be0a1d-9edc-44cb-b703-3100b36b33ec"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -124,7 +139,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[Edge_Node_3_to_Fog_Node_10]]></ATT>
+            <ATT name="Name"><![CDATA[from_Fog_Node_10]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -133,7 +148,7 @@
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="a311a3c8-4828-436b-a1f8-35625dee9d5b"/>
+                <ID name="to_Edge_Node_3" mc="Standard.AssociationEnd" uid="a311a3c8-4828-436b-a1f8-35625dee9d5b"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -146,18 +161,18 @@
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"></ATT>
+                  <ATT name="Name"><![CDATA[to_Edge_Node_3]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="Edge_Node_3_to_Fog_Node_10" mc="Standard.AssociationEnd" uid="e8be0a1d-9edc-44cb-b703-3100b36b33ec"/>
+                    <COMPID name="from_Fog_Node_10" mc="Standard.AssociationEnd" uid="e8be0a1d-9edc-44cb-b703-3100b36b33ec"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="687d410f-624f-4e45-918a-340b585f39e0"/>
+                      <ID name="Fog_Node_10_to_Edge_Node_3" mc="Standard.Association" uid="687d410f-624f-4e45-918a-340b585f39e0"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
+                        <ATT name="Name"><![CDATA[Fog_Node_10_to_Edge_Node_3]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -167,7 +182,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="687d410f-624f-4e45-918a-340b585f39e0"/>
+              <COMPID name="Fog_Node_10_to_Edge_Node_3" mc="Standard.Association" uid="687d410f-624f-4e45-918a-340b585f39e0"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

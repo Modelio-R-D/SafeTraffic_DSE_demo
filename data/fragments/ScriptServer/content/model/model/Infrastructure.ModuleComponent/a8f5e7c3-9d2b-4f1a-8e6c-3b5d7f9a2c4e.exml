@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ScriptServer" version="4">
+  <OBJECT>
+    <ID name="ScriptServer" mc="Infrastructure.ModuleComponent" uid="a8f5e7c3-9d2b-4f1a-8e6c-3b5d7f9a2c4e"/>
+    <ATTRIBUTES>
+      <ATT name="LicenseKey">0</ATT>
+      <ATT name="MajVersion">1</ATT>
+      <ATT name="MinVersion">2</ATT>
+      <ATT name="MinMinVersion"><![CDATA[1]]></ATT>
+      <ATT name="MinBinVersionCompatibility"></ATT>
+      <ATT name="JavaClassName"><![CDATA[org.modelio.scriptserver.impl.ScriptServerModule]]></ATT>
+      <ATT name="Name"><![CDATA[ScriptServer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="ModuleParameter">
+        <OBJECT>
+          <ID name="ServerPort" mc="Infrastructure.ModuleParameter" uid="b1c2d3e4-f5a6-7b8c-9d0e-1f2a3b4c5d6e"/>
+          <ATTRIBUTES>
+            <ATT name="GroupName"></ATT>
+            <ATT name="Type">TYPE_PARAM_INTEGER</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[ServerPort]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ServerEnabled" mc="Infrastructure.ModuleParameter" uid="c2d3e4f5-a6b7-8c9d-0e1f-2a3b4c5d6e7f"/>
+          <ATTRIBUTES>
+            <ATT name="GroupName"></ATT>
+            <ATT name="Type">TYPE_PARAM_BOOLEAN</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[ServerEnabled]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="BindAddress" mc="Infrastructure.ModuleParameter" uid="d3e4f5a6-b7c8-9d0e-1f2a-3b4c5d6e7f8a"/>
+          <ATTRIBUTES>
+            <ATT name="GroupName"></ATT>
+            <ATT name="Type">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[BindAddress]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="DebugMode" mc="Infrastructure.ModuleParameter" uid="e4f5a6b7-c8d9-0e1f-2a3b-4c5d6e7f8a9b"/>
+          <ATTRIBUTES>
+            <ATT name="GroupName"></ATT>
+            <ATT name="Type">TYPE_PARAM_BOOLEAN</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[DebugMode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
